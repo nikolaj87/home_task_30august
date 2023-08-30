@@ -9,7 +9,7 @@ public class HomeTask30augustApplication {
 //   1 Создание продуктов
 //   2 Создание клиентов
 //   3 Добавление товара в корзину
-// post запрос "/customer" - создание клиента, post запрос "/customer" - продукта.
+// post запрос "/customer" - создание клиента, post запрос "/product" - продукта.
 // запрос patch "/customer" кладет продукт(по ID) в корзину покупателя (по ID)
 //http://localhost:8080/swagger-ui/index.html - для запросов
 //http://localhost:8080/h2-console/ - хранит созданные сушности

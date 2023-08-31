@@ -14,8 +14,8 @@ import java.util.Optional;
 @AllArgsConstructor
 public class PutProductToCustomersCart {
 
-    ProductRepository productRepository;
-    CustomerRepository customerRepository;
+    private ProductRepository productRepository;
+    private CustomerRepository customerRepository;
 
     public void putProductToCustomersCart (PutProductToCustomersCartDTO dto) {
 
